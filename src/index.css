@@ -1,0 +1,25 @@
+/* Importar a fonte Inter do Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+@font-face {
+  font-family: 'Winie Beige';
+  src: url('/fonts/WinieBeige.ttf') format('truetype'),
+       url('/fonts/WinieBeige.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Configurações de base para fontes */
+@layer base {
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Winie Beige', serif;
+  }
+  body {
+    font-family: 'Inter', sans-serif;
+  }
+}

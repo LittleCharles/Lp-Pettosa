@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="120" height="40" viewBox="0 0 120 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M20 10C20 4.477 15.523 0 10 0S0 4.477 0 10c0 5.523 4.477 10 10 10s10-4.477 10-10z" fill="#FFF"/>
+  <text x="35" y="25" font-family="Arial" font-size="24" font-weight="bold" fill="#FFF">PetTosa</text>
+</svg> 
