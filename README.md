@@ -35,4 +35,4 @@ O **PetTosa** é um app voltado para donos de pets que desejam agendar serviços
 
 1. Clone o repositório:
 ```bash
-git clone https://github.com/seu-usuario/pettosa-landing-page.git
+git clone https://github.com/LittleCharles/pettosa-landing-page.git
