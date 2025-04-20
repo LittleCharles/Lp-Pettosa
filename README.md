@@ -11,10 +11,9 @@ O **PetTosa** é um app voltado para donos de pets que desejam agendar serviços
 ## ✨ Funcionalidades da Landing Page
 
 - Design moderno e responsivo
-- Seções: Sobre o App, Funcionalidades, Benefícios, Depoimentos, e Contato
+- Seções: Sobre o App, Funcionalidades, Depoimentos e Link para download
 - Animações suaves com Tailwind
 - Link para download do app (Android/iOS)
-- Integração com redes sociais
 
 ---
 
@@ -22,15 +21,13 @@ O **PetTosa** é um app voltado para donos de pets que desejam agendar serviços
 
 - [React](https://reactjs.org/) – Biblioteca JavaScript para construção de interfaces
 - [Tailwind CSS](https://tailwindcss.com/) – Framework CSS utilitário para estilização rápida e responsiva
-- [Vite](https://vitejs.dev/) (opcional, se usado como build tool)
+- [Vite](https://vitejs.dev/) – Usado como build tool
 
 ---
 
 ## 📸 Preview
 
-> Inclua aqui um print da página ou um link para o deploy (ex: Vercel ou Netlify)
-
-[![Visualizar PetTosa](https://via.placeholder.com/800x400?text=Preview+da+Landing+Page)](https://seudominio.com)
+![image](https://github.com/user-attachments/assets/8b1fc892-8f66-490b-a9d3-b417cac592e4)
 
 ---
 
