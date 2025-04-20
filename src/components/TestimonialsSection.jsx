@@ -1,6 +1,6 @@
 import React, { useRef, useEffect } from 'react';
 import { FaStar } from 'react-icons/fa';
-import MariaImg from '../assets/maria.png';
+import MariaAvatar from '../assets/maria.png';
 import QuotesIcon from '../assets/icons/Quotes.svg';
 
 // Componente para exibir as estrelas de avaliação
@@ -23,7 +23,7 @@ const TestimonialsSection = () => {
       id: 1,
       name: 'Flávia Carvalho',
       title: 'Tutora da Luna',
-      avatar: MariaImg,
+      avatar: MariaAvatar,    
       rating: 5,
       text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, lacus in hendrerit suscipit, mauris libero fermentum erat, vitae facilisis nulla justo in lacus. Morbi ut risus nec metus congue blandit. Integer vitae purus et nulla laoreet posuere.'
     },
@@ -31,7 +31,7 @@ const TestimonialsSection = () => {
       id: 2,
       name: 'Daniel Andrade',
       title: 'Tutor do Bob',
-      avatar: MariaImg,
+      avatar: MariaAvatar,
       rating: 5,
       text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, lacus in hendrerit suscipit, mauris libero fermentum erat, vitae facilisis nulla justo in lacus. Morbi ut risus nec metus congue blandit. Integer vitae purus et nulla laoreet posuere.'
     },
@@ -39,7 +39,7 @@ const TestimonialsSection = () => {
       id: 3,
       name: 'Maria Silva',
       title: 'Tutora do Max',
-      avatar: MariaImg,
+      avatar: MariaAvatar,
       rating: 4,
       text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, lacus in hendrerit suscipit, mauris libero fermentum erat, vitae facilisis nulla justo in lacus. Morbi ut risus nec metus congue blandit. Integer vitae purus et nulla laoreet posuere.'
     },
@@ -47,7 +47,7 @@ const TestimonialsSection = () => {
       id: 4,
       name: 'Matheus Souza',
       title: 'Tutor do Marley',
-      avatar: MariaImg,
+      avatar: MariaAvatar,
       rating: 5,
       text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, lacus in hendrerit suscipit, mauris libero fermentum erat, vitae facilisis nulla justo in lacus. Morbi ut risus nec metus congue blandit. Integer vitae purus et nulla laoreet posuere.'
     },
@@ -55,7 +55,7 @@ const TestimonialsSection = () => {
       id: 5,
       name: 'Amanda Martins',
       title: 'Tutora da Julie',
-      avatar: MariaImg,
+      avatar: MariaAvatar,
       rating: 5,
       text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, lacus in hendrerit suscipit, mauris libero fermentum erat, vitae facilisis nulla justo in lacus. Morbi ut risus nec metus congue blandit. Integer vitae purus et nulla laoreet posuere.'
     },
@@ -63,7 +63,7 @@ const TestimonialsSection = () => {
       id: 6,
       name: 'João Barbosa',
       title: 'Tutor do Spyke',
-      avatar: MariaImg,
+      avatar: MariaAvatar,
       rating: 5,
       text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, lacus in hendrerit suscipit, mauris libero fermentum erat, vitae facilisis nulla justo in lacus. Morbi ut risus nec metus congue blandit. Integer vitae purus et nulla laoreet posuere.'
     }
