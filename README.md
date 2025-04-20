@@ -1,12 +1,41 @@
-# React + Vite
+# 🐾 PetTosa - Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**PetTosa** é uma landing page responsiva desenvolvida em **React** com **Tailwind CSS**, criada para apresentar o aplicativo **PetTosa**, uma plataforma prática de agendamento online para petshops.
 
-Currently, two official plugins are available:
+## 🚀 Sobre o PetTosa App
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+O **PetTosa** é um app voltado para donos de pets que desejam agendar serviços como banho, tosa, vacinação e outros cuidados de forma rápida, simples e organizada. A landing page tem como objetivo divulgar o app, apresentar suas principais funcionalidades e incentivar o download.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ✨ Funcionalidades da Landing Page
+
+- Design moderno e responsivo
+- Seções: Sobre o App, Funcionalidades, Benefícios, Depoimentos, e Contato
+- Animações suaves com Tailwind
+- Link para download do app (Android/iOS)
+- Integração com redes sociais
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+- [React](https://reactjs.org/) – Biblioteca JavaScript para construção de interfaces
+- [Tailwind CSS](https://tailwindcss.com/) – Framework CSS utilitário para estilização rápida e responsiva
+- [Vite](https://vitejs.dev/) (opcional, se usado como build tool)
+
+---
+
+## 📸 Preview
+
+> Inclua aqui um print da página ou um link para o deploy (ex: Vercel ou Netlify)
+
+[![Visualizar PetTosa](https://via.placeholder.com/800x400?text=Preview+da+Landing+Page)](https://seudominio.com)
+
+---
+
+## 📂 Como rodar o projeto localmente
+
+1. Clone o repositório:
+```bash
+git clone https://github.com/seu-usuario/pettosa-landing-page.git
