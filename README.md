@@ -29,6 +29,8 @@ O **PetTosa** é um app voltado para donos de pets que desejam agendar serviços
 
 ![image](https://github.com/user-attachments/assets/8b1fc892-8f66-490b-a9d3-b417cac592e4)
 
+👉 [Acesse agora](https://lp-pettosa.vercel.app/)
+
 ---
 
 ## 📂 Como rodar o projeto localmente
