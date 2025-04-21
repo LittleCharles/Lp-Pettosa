@@ -1,7 +1,7 @@
 import React, { useRef, useEffect } from "react";
 import { FaStar } from "react-icons/fa";
 import MariaAvatar from "../assets/maria.png";
-import QuotesIcon from "../assets/icons/Quotes.svg";
+import QuotesIcon from "../assets/icons/quotes.svg";
 
 const Rating = ({ value = 5 }) => {
   return (
