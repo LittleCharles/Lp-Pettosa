@@ -1,12 +1,38 @@
-# React + Vite
+# 🐾 PetTosa - Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**PetTosa** é uma landing page responsiva desenvolvida em **React** com **Tailwind CSS**, criada para apresentar o aplicativo **PetTosa**, uma plataforma prática de agendamento online para petshops.
 
-Currently, two official plugins are available:
+## 🚀 Sobre o PetTosa App
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+O **PetTosa** é um app voltado para donos de pets que desejam agendar serviços como banho, tosa, vacinação e outros cuidados de forma rápida, simples e organizada. A landing page tem como objetivo divulgar o app, apresentar suas principais funcionalidades e incentivar o download.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ✨ Funcionalidades da Landing Page
+
+- Design moderno e responsivo
+- Seções: Sobre o App, Funcionalidades, Depoimentos e Link para download
+- Animações suaves com Tailwind
+- Link para download do app (Android/iOS)
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+- [React](https://reactjs.org/) – Biblioteca JavaScript para construção de interfaces
+- [Tailwind CSS](https://tailwindcss.com/) – Framework CSS utilitário para estilização rápida e responsiva
+- [Vite](https://vitejs.dev/) – Usado como build tool
+
+---
+
+## 📸 Preview
+
+![image](https://github.com/user-attachments/assets/8b1fc892-8f66-490b-a9d3-b417cac592e4)
+
+---
+
+## 📂 Como rodar o projeto localmente
+
+1. Clone o repositório:
+```bash
+git clone https://github.com/LittleCharles/pettosa-landing-page.git
