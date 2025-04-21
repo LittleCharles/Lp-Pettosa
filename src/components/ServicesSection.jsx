@@ -1,9 +1,9 @@
 import React from "react";
-import ShowerIcon from "../assets/icons/shower.svg";
-import CutIcon from "../assets/icons/cut.svg";
-import VaccinesIcon from "../assets/icons/vaccines.svg";
-import StethoscopeIcon from "../assets/icons/stethoscope.svg";
-import NotificationIcon from "../assets/icons/notification.svg";
+import ShowerIcon from "../../public/icons/shower.svg";
+import CutIcon from "../../public/icons/cut.svg";
+import VaccinesIcon from "../../public/icons/vaccines.svg";
+import StethoscopeIcon from "../../public/icons/stethoscope.svg";
+import NotificationIcon from "../../public/icons/notification.svg";
 
 const ServicesSection = () => {
   const services = [

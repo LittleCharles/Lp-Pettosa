@@ -1,8 +1,8 @@
 import React from "react";
 import WomanHoldingCat from "../assets/WomanHoldingCat.png";
-import AppIcon from "../assets/icons/app.svg";
-import CalendarIcon from "../assets/icons/calendar.svg";
-import CheckIcon from "../assets/icons/check.svg";
+import AppIcon from "../../public/icons/app.svg";
+import CalendarIcon from "../../public/icons/calendar.svg";
+import CheckIcon from "../../public/icons/check.svg";
 
 const HowToUseSection = () => {
   return (
