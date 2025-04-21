@@ -1,42 +1,66 @@
-import React from 'react';
-import backgroundImage from '../assets/img-background.png';
-import user from '../assets/Faces-users.png';
+import React, { useState, useEffect } from "react";
+import backgroundImage from "../assets/img-background.png";
+import mobileBackgroundImage from "../assets/Mobile-background.png";
+import user from "../assets/Faces-users.png";
 
 const Hero = () => {
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+    const checkIfMobile = () => {
+      setIsMobile(window.innerWidth < 768);
+    };
+
+    checkIfMobile();
+
+    window.addEventListener("resize", checkIfMobile);
+
+    return () => {
+      window.removeEventListener("resize", checkIfMobile);
+    };
+  }, []);
+
   return (
-    <section 
-      className="relative w-full"
+    <section
+      id="inicio"
+      className="relative w-full min-h-screen"
       style={{
-        backgroundImage: `url(${backgroundImage})`,
-        backgroundSize: 'cover',
-        backgroundPosition: 'center center',
-        backgroundRepeat: 'no-repeat'
+        backgroundImage: `url(${
+          isMobile ? mobileBackgroundImage : backgroundImage
+        })`,
+        backgroundSize: "cover",
+        backgroundPosition: isMobile ? "center center" : "center right",
+        backgroundRepeat: "no-repeat",
       }}
     >
-      {/* Gradient overlay para escurecer o lado esquerdo */}
-      <div className="absolute inset-0 bg-gradient-to-r from-[#1e293b]/95 via-[#1e293b]/70 to-transparent"></div>
-      
-      {/* Container de conteúdo */}
-      <div className="relative z-10 h-full container mx-auto max-w-[1440px] px-6 md:px-12 pt-64 pb-40">
+      <div className="relative z-10 h-full container mx-auto max-w-[1440px] px-6 md:px-12 pt-32 md:pt-64 pb-20 md:pb-40">
         <div className="max-w-[700px]">
-          <h1 className="text-[64px] md:text-6xl font-title text-[#F1F6FD] mb-[30px] leading-tight">
-            PARA QUEM AMA 
+          <h1 className="text-4xl sm:text-5xl md:text-[64px] font-title text-[#F1F6FD] mb-4 md:mb-[30px] leading-tight">
+            PARA QUEM AMA
             <br />
             CUIDAR DE VERDADE
           </h1>
-          
-          <p className="font-body text-[#F1F6FD] text-xl mb-8">
-            Agende banhos, consultas e vacinas com facilidade, acompanhe o 
+
+          <p className="font-body text-[#F1F6FD] text-base md:text-xl mb-6 md:mb-8">
+            Agende banhos, consultas e vacinas com facilidade, acompanhe o
             histórico do seu pet e encontre os melhores serviços perto de você.
           </p>
-          
-          <button className="bg-[#F1F6FD33] text-[#F1F6FD] rounded-full py-3 px-6 font-body text-lg border border-white font-medium transition-colors">
-            Baixe o nosso app agora
-          </button>
-          
-          <div className="mt-10 flex items-center gap-4">
-           <img src={user} alt="user" />
-            <p className="font-body text-[#F1F6FD] text-lg">+45 mil usuários cadastrados.</p>
+
+          <div className="max-[425px]:flex max-[425px]:justify-center">
+            <button
+              className="bg-[#F1F6FD33] text-[#F1F6FD] rounded-full py-2 px-4 md:py-3 md:px-6 
+                         font-body text-base md:text-lg border border-white font-medium 
+                         transition-all duration-300 hover:bg-[#F1F6FD] hover:text-[#344363]"
+            >
+              Baixe o nosso app agora
+            </button>
+          </div>
+
+          <div className="mt-6 md:mt-10 flex items-center max-[425px]:flex-col gap-3 md:gap-4">
+            <img src={user} alt="user" />
+            <p className="font-body text-[#F1F6FD] text-lg">
+              +45 mil usuários cadastrados.
+            </p>
           </div>
         </div>
       </div>

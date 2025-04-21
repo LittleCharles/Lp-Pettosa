@@ -8,6 +8,7 @@ import TestimonialsSection from './components/TestimonialsSection';
 import FrequentQuestions from './components/FrequentQuestions';
 import PetBanner from './components/PetBanner';
 import Footer from './components/Footer'; 
+import ScrollToTopButton from './components/ScrollToTopButton';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
       <FrequentQuestions />
       <PetBanner />
       <Footer />
+      <ScrollToTopButton />
     </main>
   );
 }
