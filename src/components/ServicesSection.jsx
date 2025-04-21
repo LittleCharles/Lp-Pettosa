@@ -1,40 +1,35 @@
 import React from "react";
-import ShowerIcon from "../../public/icons/shower.svg";
-import CutIcon from "../../public/icons/cut.svg";
-import VaccinesIcon from "../../public/icons/vaccines.svg";
-import StethoscopeIcon from "../../public/icons/stethoscope.svg";
-import NotificationIcon from "../../public/icons/notification.svg";
 
 const ServicesSection = () => {
   const services = [
     {
       id: 1,
       name: "Banho",
-      icon: ShowerIcon,
+      icon: "/icons/shower.svg",
       alt: "Ícone de chuveiro representando serviço de banho",
     },
     {
       id: 2,
       name: "Tosa",
-      icon: CutIcon,
+      icon: "/icons/cut.svg",
       alt: "Ícone de tesoura representando serviço de tosa",
     },
     {
       id: 3,
       name: "Vacinas",
-      icon: VaccinesIcon,
+      icon: "/icons/vaccines.svg",
       alt: "Ícone de seringa representando serviço de vacinas",
     },
     {
       id: 4,
       name: "Consultas",
-      icon: StethoscopeIcon,
+      icon: "/icons/stethoscope.svg",
       alt: "Ícone de estetoscópio representando serviço de consultas",
     },
     {
       id: 5,
       name: "Lembretes",
-      icon: NotificationIcon,
+      icon: "/icons/notification.svg",
       alt: "Ícone de sino representando funcionalidade de lembretes",
     },
   ];

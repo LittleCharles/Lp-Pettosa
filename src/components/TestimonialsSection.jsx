@@ -1,6 +1,5 @@
 import React, { useRef, useEffect } from "react";
 import { FaStar } from "react-icons/fa";
-import MariaAvatar from "../assets/maria.png";
 import QuotesIcon from "../../public/icons/quotes.svg";
 
 const Rating = ({ value = 5 }) => {
@@ -24,7 +23,7 @@ const TestimonialsSection = () => {
       id: 1,
       name: "Flávia Carvalho",
       title: "Tutora da Luna",
-      avatar: MariaAvatar,
+      avatar: "/images/maria.png",
       rating: 5,
       text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, lacus in hendrerit suscipit, mauris libero fermentum erat, vitae facilisis nulla justo in lacus. Morbi ut risus nec metus congue blandit. Integer vitae purus et nulla laoreet posuere.",
     },
@@ -32,7 +31,7 @@ const TestimonialsSection = () => {
       id: 2,
       name: "Daniel Andrade",
       title: "Tutor do Bob",
-      avatar: MariaAvatar,
+      avatar: "/images/maria.png",
       rating: 5,
       text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, lacus in hendrerit suscipit, mauris libero fermentum erat, vitae facilisis nulla justo in lacus. Morbi ut risus nec metus congue blandit. Integer vitae purus et nulla laoreet posuere.",
     },
@@ -40,7 +39,7 @@ const TestimonialsSection = () => {
       id: 3,
       name: "Maria Silva",
       title: "Tutora do Max",
-      avatar: MariaAvatar,
+      avatar: "/images/maria.png",
       rating: 4,
       text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, lacus in hendrerit suscipit, mauris libero fermentum erat, vitae facilisis nulla justo in lacus. Morbi ut risus nec metus congue blandit. Integer vitae purus et nulla laoreet posuere.",
     },
@@ -48,7 +47,7 @@ const TestimonialsSection = () => {
       id: 4,
       name: "Matheus Souza",
       title: "Tutor do Marley",
-      avatar: MariaAvatar,
+      avatar: "/images/maria.png",
       rating: 5,
       text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, lacus in hendrerit suscipit, mauris libero fermentum erat, vitae facilisis nulla justo in lacus. Morbi ut risus nec metus congue blandit. Integer vitae purus et nulla laoreet posuere.",
     },
@@ -56,7 +55,7 @@ const TestimonialsSection = () => {
       id: 5,
       name: "Amanda Martins",
       title: "Tutora da Julie",
-      avatar: MariaAvatar,
+      avatar: "/images/maria.png",
       rating: 5,
       text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, lacus in hendrerit suscipit, mauris libero fermentum erat, vitae facilisis nulla justo in lacus. Morbi ut risus nec metus congue blandit. Integer vitae purus et nulla laoreet posuere.",
     },
@@ -64,7 +63,7 @@ const TestimonialsSection = () => {
       id: 6,
       name: "João Barbosa",
       title: "Tutor do Spyke",
-      avatar: MariaAvatar,
+      avatar: "/images/maria.png",
       rating: 5,
       text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, lacus in hendrerit suscipit, mauris libero fermentum erat, vitae facilisis nulla justo in lacus. Morbi ut risus nec metus congue blandit. Integer vitae purus et nulla laoreet posuere.",
     },
@@ -148,7 +147,7 @@ const TestimonialsSection = () => {
                 className="testimonial-item flex-shrink-0 bg-white rounded-xl relative p-5 w-[250px] md:w-[450px] min-w-[250px] md:min-w-[450px] shadow-[0px_0px_17.3px_0px_rgba(52,67,99,0.1)]"
               >
                 <img
-                  src={QuotesIcon}
+                  src="/icons/quotes.svg"
                   alt=""
                   className="absolute top-5 left-5 w-8 h-8 text-[#E6EEFF]"
                 />
@@ -200,7 +199,7 @@ const TestimonialsSection = () => {
                 className="testimonial-item flex-shrink-0 bg-white rounded-xl relative p-5 w-[250px] md:w-[450px] min-w-[250px] md:min-w-[450px] shadow-[0px_0px_17.3px_0px_rgba(52,67,99,0.1)]"
               >
                 <img
-                  src={QuotesIcon}
+                  src="/icons/quotes.svg"
                   alt=""
                   className="absolute top-5 left-5 w-8 h-8 text-[#E6EEFF]"
                 />

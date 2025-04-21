@@ -1,8 +1,5 @@
 import React from "react";
 import WomanHoldingCat from "../assets/WomanHoldingCat.png";
-import AppIcon from "../../public/icons/app.svg";
-import CalendarIcon from "../../public/icons/calendar.svg";
-import CheckIcon from "../../public/icons/check.svg";
 
 const HowToUseSection = () => {
   return (
@@ -29,7 +26,7 @@ const HowToUseSection = () => {
               <div className="flex items-start gap-4">
                 <div className="w-16 h-16 md:w-10 md:h-10 mt-1">
                   <img
-                    src={AppIcon}
+                    src="/icons/app.svg"
                     alt="Ícone de app"
                     className="w-full h-full"
                   />
@@ -47,7 +44,7 @@ const HowToUseSection = () => {
               <div className="flex items-start gap-4">
                 <div className="w-16 h-16 md:w-10 md:h-10 mt-1">
                   <img
-                    src={CalendarIcon}
+                    src="/icons/calendar.svg"
                     alt="Ícone de calendário"
                     className="w-full h-full"
                   />
@@ -66,7 +63,7 @@ const HowToUseSection = () => {
               <div className="flex items-start gap-4">
                 <div className="w-16 h-16 md:w-10 md:h-10 mt-1">
                   <img
-                    src={CheckIcon}
+                    src="/icons/check.svg"
                     alt="Ícone de verificação"
                     className="w-full h-full"
                   />
